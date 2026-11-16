@@ -73,7 +73,7 @@ export const LivingArchive: React.FC<LivingArchiveProps> = ({
   };
 
   const handleCopyShare = () => {
-    const url = `${window.location.origin}/?archive=${currentPairCode}`;
+    const url = `${window.location.origin}${window.location.pathname}?archive=${currentPairCode}`;
     navigator.clipboard?.writeText(url);
     setCopiedLink(true);
     setTimeout(() => setCopiedLink(false), 3000);
