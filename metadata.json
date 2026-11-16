@@ -1,0 +1,6 @@
+{
+  "name": "Pamitisan Footwear",
+  "description": "Artisanal, heritage-driven footwear handcrafted in Bicol from upcycled denim and traditional woven Hinabi textiles with live pre-order batch tracking and living archive provenance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

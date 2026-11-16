@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-bg-primary: #FAF8F5;
+    --color-bg-surface: #FFFFFF;
+    --color-bg-subtle: #F3EFEA;
+    --color-text-primary: #182030;
+    --color-text-secondary: #57534E;
+    --color-text-muted: #78716C;
+    --color-border-subtle: #E7E2D8;
+    --color-border-strong: #D3CBBE;
+    --color-denim-indigo: #1E3A8A;
+    --color-denim-chambray: #2563EB;
+    --color-denim-wash: #EEF2FF;
+    --color-stitch-copper: #B45309;
+    --color-stitch-terracotta: #C2410C;
+    --color-eco-sage: #15803D;
+    --color-eco-wash: #F0FDF4;
+  }
+
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    color: #182030;
+    background-color: #FAF8F5;
+    letter-spacing: -0.01em;
+  }
+
+  .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+  
+  .font-serif {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+/* Custom scrollbar and smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAF8F5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D3CBBE;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1E3A8A;
+}
+
+/* Subtle selvedge & artisan stitch styling */
+.selvedge-line {
+  background-image: repeating-linear-gradient(
+    90deg,
+    #B45309,
+    #B45309 6px,
+    transparent 6px,
+    transparent 12px
+  );
+}
+
